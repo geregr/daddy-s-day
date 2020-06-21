@@ -1,0 +1,38 @@
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  body {
+    background-color: blue;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+    font-size: 600%;
+    color: #7effdb;
+    text-shadow: 10px 0 #1d1761;
+  }
+  
+  .q {
+    width: 150px;
+    height: 150px;
+    font-size: 500%;
+    border: 10px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 5px 0 #8c82fc;
+  }
+  
+  .footer {
+    margin-top: 200px
+  }
+
+
+
+
+
+
