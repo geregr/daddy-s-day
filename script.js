@@ -1,3 +1,12 @@
+alert("happy daddy day!")
+alert(" press d on keyboard to play tom1")
+alert("press r on keyboard to play tom2 ")
+alert("press u on keyboard to play tom3")
+alert("press m on keyboard to play tom4")
+alert("press k on keyboard to play crash")
+alert("press i on keyboard to play kick-bass")
+alert("press t on keyboard to play snare")
+alert("only d,r,u,m,k,i,t will work")
 document.getElementById('ji').addEventListener("click",function(){
     document.getElementById("gf").style.color="red"
 })
@@ -44,14 +53,3 @@ if(p.key==="i"){
 }
 
 })
-document.getElementById("but").addEventListener("click",function(){
-    var nr =Math.random()*6+1;
-    nr = Math.floor(nr)
-    var dc= "dice"+nr+".png";
-    document.getElementById("dice1").setAttribute("src",dc);
-    var nr1 =Math.random()*6+1;
-    nr1 = Math.floor(nr1)
-    var cd= "dice"+nr1+".png";
-    document.getElementById("dice2").setAttribute("src",cd);
-
-});
